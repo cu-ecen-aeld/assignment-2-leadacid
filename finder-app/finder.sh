@@ -1,4 +1,5 @@
 #!/bin/bash
+<<<<<<< HEAD
 #file : finder.sh
 
 #description: Shell script finder-app/finder.sh as described below:
@@ -7,6 +8,8 @@
 # Exits with return value 1 error and print statements if filesdir does not represent a directory on the filesystem
 # Prints a message 'The number of files are X and the number of matching lines are Y where X is the number of files in the directory and all #subdirectories and Y is the number of matching lines found in respective files, where a matching line refers to a line which contains searchstr (and may also contain additional content).
 
+=======
+>>>>>>> c31b3a0ccb72bcf97d0ad8f561034ae767b3a921
 
 NUM_PARAMS=2
 filesdir="$1"
