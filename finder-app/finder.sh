@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 NUM_PARAMS=2
 filesdir="$1"
