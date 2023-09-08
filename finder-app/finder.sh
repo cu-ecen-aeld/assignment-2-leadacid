@@ -1,5 +1,4 @@
-uthor : AYOUB EL MAHFOUDI
-
+#!/bin/bash
 #file : finder.sh
 
 #description: Shell script finder-app/finder.sh as described below:
