@@ -1,5 +1,3 @@
-uthor : AYOUB EL MAHFOUDI
-
 #file : finder.sh
 
 #description: Shell script finder-app/finder.sh as described below:
