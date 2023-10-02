@@ -4,13 +4,11 @@
 if [ ! $# -eq 2 ]
 then
 
-		echo "unspecified num of parameters"
-
-			#exit with value 1 error
-				exit 1
+	echo "unspecified num of parameters"
+	#exit with value 1 error
+	exit 1
 
 fi
-
 
 # Accepting 1st arg
 writefile=$1
@@ -27,13 +25,13 @@ touch $writefile
 
 # Verifying is file creared
 if [ -f $writefile ]	
-then
+	then
 		echo "$writestr" > "$writefile"
-			#exit with value 0
-				exit 0
-			else
-					echo "File Not Created"
-						#exit with value 1 error
-							exit 1
+		#exit with value 0
+		exit 0
+	else
+		echo "File Not Created"
+		#exit with value 1 error
+		exit 1
 
 fi
